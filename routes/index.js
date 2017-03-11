@@ -58,7 +58,7 @@ router.get('/trends', function (req, res) {
 	  return;
 	}
 
-	TweetPublisher.twitter.get('trends/place', { id: 1 }, function(err, data, response) {
+	TweetPublisher.twitter.get('trends/greece', { id: 23424833 }, function(err, data, response) {
 
 		if (err) {
 	  	res.send(err);
