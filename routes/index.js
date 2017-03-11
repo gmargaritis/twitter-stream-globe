@@ -47,7 +47,7 @@ var trends, trendsTimestamp;
 /**
  * GET Returns trends from Twitter trends API
  */
-router.get('/trends', function (req, res) {
+router.get('/trends/Greece', function (req, res) {
 
 	var now = moment();
 
@@ -58,7 +58,7 @@ router.get('/trends', function (req, res) {
 	  return;
 	}
 
-	TweetPublisher.twitter.get('trends/greece', { id: 23424833 }, function(err, data, response) {
+	TweetPublisher.twitter.get('trends/Greece', { id: 23424833 }, function(err, data, response) {
 
 		if (err) {
 	  	res.send(err);
