@@ -37,7 +37,7 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
    */
   function getTrends () {
 
-    $scope.trendsResource = $resource('/trends/greece');
+    $scope.trendsResource = $resource('/trends');
 
     $scope.trendsResource.query( { }, function (res) {
       $scope.trends = res;
