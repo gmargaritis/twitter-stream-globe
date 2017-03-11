@@ -47,7 +47,7 @@ var trends, trendsTimestamp;
 /**
  * GET Returns trends from Twitter trends API
  */
-router.get('/trends/Greece', function (req, res) {
+router.get('/trends', function (req, res) {
 
 	var now = moment();
 
