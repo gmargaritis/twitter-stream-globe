@@ -24,7 +24,12 @@ abuse	-3
 abused	-3
 abuses	-3
 abusing	-3
+καταχρώμαι -3
+// 2015139 Giorgos Margaritis CSCW
 abusive	-3
+καταχρηστικός -3
+καταχρηστική -3
+// 2015139 Giorgos Margaritis CSCW
 accept	1
 acceptable	1
 acceptance	1
@@ -838,6 +843,8 @@ desperate	-3
 desperately	-3
 despondent	-3
 destroy	-3
+καταστρέφω -3
+// 2015139 Giorgos Margaritis CSCW
 destroyed	-3
 destroying	-3
 destroys	-3
@@ -1683,6 +1690,9 @@ imposter	-2
 impotent	-2
 impress	3
 impressed	3
+εντυπωσιασμένος 3
+εντυπωσιαμένη 3
+// 2015139 Giorgos Margaritis CSCW
 impresses	3
 impressive	3
 imprisoned	-2
@@ -1871,7 +1881,12 @@ jokes	2
 jolly	2
 jovial	2
 joy	3
+χαρά 3
+// 2015139 Giorgos Margaritis CSCW
 joyful	3
+χαρούμενος 3
+χαρούμενη 3
+// 2015139 Giorgos Margaritis CSCW
 joyfully	3
 joyless	-2
 joyous	3
@@ -2346,7 +2361,13 @@ pleasant	3
 please	1
 pleased	3
 pleasurable	3
+απολαυστικός 3
+απολαυστική 3
+απολαυστικό 3
+// 2015139 Giorgos Margaritis CSCW
 pleasure	3
+ευχαρίστηση 3
+// 2015139 Giorgos Margaritis CSCW
 plodding	-2
 poignant	2
 pointless	-2
@@ -2369,7 +2390,11 @@ poorer	-2
 poorest	-2
 poorly	-2
 popular	3
+δημοφιλής 3
+// 2015139 Giorgos Margaritis CSCW
 popularity	3
+δημοτικότητα 3
+// 2015139 Giorgos Margaritis CSCW
 positive	2
 positively	2
 possessive	-2
@@ -2382,6 +2407,8 @@ poverty	-1
 powerful	2
 powerless	-2
 praise	3
+έπαινος 3
+// 2015139 Giorgos Margaritis CSCW
 praised	3
 praises	3
 praising	3
@@ -2688,6 +2715,8 @@ scumbag	-4
 seamless	2
 seamlessly	2
 secure	2
+ασφαλής 2
+// 2015139 Giorgos Margaritis CSCW
 secured	2
 secures	2
 sedition	-2
@@ -2698,6 +2727,9 @@ self-confident	2
 self-contradictory	-2
 self-deluded	-2
 selfish	-3
+εγωιστής -3
+εγωίστρια -3
+// 2015139 Giorgos Margaritis CSCW
 selfishness	-3
 sentence	-2
 sentenced	-2
@@ -2775,6 +2807,10 @@ sluggish	-2
 slumping	-1
 slut	-5
 smart	1
+έξυπνος 1
+έξυπνη 1
+έξυπνο 1
+// 2015139 Giorgos Margaritis CSCW
 smarter	2
 smartest	2
 smear	-2
@@ -2805,8 +2841,14 @@ solidifies	2
 solidify	2
 solidifying	2
 solution	1
+λύση 1
+// 2015139 Giorgos Margaritis CSCW
 solutions	1
+λύσεις 1
+// 2015139 Giorgos Margaritis CSCW
 solve	1
+λύνω 1
+// 2015139 Giorgos Margaritis CSCW
 solved	1
 solves	1
 solving	1
@@ -2958,8 +3000,12 @@ super	3
 superb	5
 superior	2
 support	2
+υποστηρίζω 2
+// 2015139 Giorgos Margaritis CSCW
 supported	2
 supporter	1
+υποστηρικτής 1
+// 2015139 Giorgos Margaritis CSCW
 supporters	1
 supporting	1
 supportive	2
@@ -2982,6 +3028,10 @@ swear	-2
 swearing	-2
 swears	-2
 sweet	2
+γλυκός 2
+γλυκιά 2
+γλυκό 2
+// 2015139 Giorgos Margaritis CSCW
 sweeter	3
 sweetest	3
 swift	2
@@ -3009,8 +3059,14 @@ terrific	4
 terrifically	4
 terrified	-3
 terror	-3
+τρόμος -3
+// 2015139 Giorgos Margaritis CSCW
 terrorist	-2
+τρομοκράτης -2
+// 2015139 Giorgos Margaritis CSCW
 terrorists	-2
+τρομοκράτες -2
+// 2015139 Giorgos Margaritis CSCW
 terrorize	-3
 terrorized	-3
 terrorizes	-3
@@ -3042,6 +3098,8 @@ top	2
 tops	2
 torn	-2
 torture	-4
+βασανιστήριο -4
+// 2015139 Giorgos Margaritis CSCW
 tortured	-4
 tortures	-4
 torturing	-4
@@ -3064,9 +3122,13 @@ trap	-1
 trapped	-2
 traps	-1
 trauma	-3
+τραύμα -3
+// 2015139 Giorgos Margaritis CSCW
 traumatic	-3
 travesty	-2
 treason	-3
+προδοσία -3
+// 2015139 Giorgos Margaritis CSCW
 treasonous	-3
 treasure	2
 treasures	2
@@ -3111,6 +3173,8 @@ unavailing	-2
 unaware	-2
 unbearable	-2
 unbelievable	-1
+απίστευτο -1
+// 2015139 Giorgos Margaritis CSCW
 unbelieving	-1
 unbiased	2
 uncertain	-1
@@ -3121,6 +3185,9 @@ unconfirmed	-1
 unconvinced	-1
 uncredited	-1
 undecided	-1
+αναποφάσιστος -1
+αναποφάσιστη -1
+// 2015139 Giorgos Margaritis CSCW
 undercooked	-2
 underestimate	-1
 underestimated	-1
@@ -3138,12 +3205,19 @@ undeserving	-2
 undesirable	-2
 uneasy	-2
 unemployed	-1
+άνεργος -1
+άνεργη -1
+// 2015139 Giorgos Margaritis CSCW
 unemployment	-2
+ανεργία -2
+// 2015139 Giorgos Margaritis CSCW
 unequal	-1
 unequaled	2
 unethical	-2
 uneventful	-2
 unfair	-2
+άδικο -2
+// 2015139 Giorgos Margaritis CSCW
 unfavorable	-2
 unfit	-2
 unfitted	-2
@@ -3357,6 +3431,9 @@ wrathful	-3
 wreck	-2
 wrenching	-2
 wrong	-2
+λανθασμένος -2
+λανθασμένη -2
+// 2015139 Giorgos Margaritis CSCW
 wrongdoing	-2
 wrongdoings	-2
 wronged	-2
