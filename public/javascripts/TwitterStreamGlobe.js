@@ -106,11 +106,14 @@
 	  var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
 	  var rad = 600 + height;
 
-	  vector3.x = tweet.coordinates.coordinates[0];
-	  vector3.y = tweet.coordinates.coordinates[1];
-	  vector3.z = height;
-
-	  return vector3;
+	  vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
+ +	  vector3.y = Math.cos(phi) * rad;
+ +	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
+		
+	  Vector2 vector2 = (Vector2)vector3;
+	  Vector2 vector2 = new Vector2(vector3.x, vector3.y);
+		
+	  return vector2;
 	};
 
 	/**
