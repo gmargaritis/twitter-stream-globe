@@ -41,7 +41,7 @@
 
 		addEarth();
 		addStats();
-		
+		animate();
 
 		window.addEventListener ('resize', onWindowResize);
 	}
@@ -53,7 +53,7 @@
 	 */
 	function addEarth () {
 
-	  var planeGeometry = new THREE.PlaneGeometry(500, 500);
+	  var planeGeometry = new THREE.PlaneGeometry(200, 200);
 
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
