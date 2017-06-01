@@ -107,8 +107,8 @@
 	  var rad = 600 + height;
 
 	  vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
- +	  vector3.y = Math.cos(phi) * rad;
- +	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
+	  vector3.y = Math.cos(phi) * rad;
+	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
 		
 	  return vector3;
 	};
