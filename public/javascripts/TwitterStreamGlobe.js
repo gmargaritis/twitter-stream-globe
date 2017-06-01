@@ -4,7 +4,7 @@
 
 	// Constants
 	POS_X = 0,
-	POS_Y = 800,
+	POS_Y = 0,
 	POS_Z = 2000,
 	FOV = 45,
 	NEAR = 1,
@@ -163,7 +163,7 @@
 	 */ 
 	function render () {
 
-	earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
+	//earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
 		
 	  renderer.autoClear = false;
 	  renderer.clear();
