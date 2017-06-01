@@ -106,9 +106,9 @@
 	  var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
 	  var rad = 600 + height;
 
-	  vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
-	  vector3.y = Math.cos(phi) * rad;
-	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
+	  vector3.x = lon;
+	  vector3.y = lat;
+	  vector3.z = height;
 
 	  return vector3;
 	};
