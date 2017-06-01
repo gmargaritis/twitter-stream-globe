@@ -53,7 +53,7 @@
 	 */
 	function addEarth () {
 
-	  var planeGeometry = new THREE.PlaneGeometry(200, 200);
+	  var planeGeometry = new THREE.PlaneGeometry(1500, 600);
 
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
@@ -93,7 +93,7 @@
 	/**
 	 * Converts a latlong to Vector3 for use in Three.js
 	 */
-	function latLonToVector3 (lat, lon, height) {
+	/*function latLonToVector3 (lat, lon, height) {
 
 		height = height ? height : 0;
 
@@ -111,7 +111,7 @@
 	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
 
 	  return vector3;
-	};
+	};*/
 
 	/**
 	 *	Adds a Tweet to the Earth, called from TweetHud.js
@@ -126,7 +126,7 @@
 		
 		var position = latLonToVector3(latlong.lat, latlong.lon);
 
-		addBeacon(position, tweet);
+		addBeacon(latlong, tweet);
 	}
 
 	/**
