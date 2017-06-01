@@ -41,7 +41,7 @@
 
 		addEarth();
 		addStats();
-		animate();
+		
 
 		window.addEventListener ('resize', onWindowResize);
 	}
@@ -53,7 +53,7 @@
 	 */
 	function addEarth () {
 
-	  var planeGeometry = new THREE.PlaneGeometry(50, 50);
+	  var planeGeometry = new THREE.PlaneGeometry(500, 500);
 
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
@@ -134,7 +134,7 @@
 	 */
 	function addBeacon (position, tweet) {
 		
-		var beacon = new TweetBeacon(tweet);
+	var beacon = new TweetBeacon(tweet);
 
 	  beacon.position.x = position.x;
 	  beacon.position.y = position.y;
@@ -163,7 +163,7 @@
 	 */ 
 	function render () {
 
-		earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
+	earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
 		
 	  renderer.autoClear = false;
 	  renderer.clear();
