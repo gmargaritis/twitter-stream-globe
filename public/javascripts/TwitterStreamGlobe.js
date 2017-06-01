@@ -106,8 +106,8 @@
 	  var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
 	  var rad = 600 + height;
 
-	  vector3.x = lon;
-	  vector3.y = lat;
+	  vector3.x = tweet.coordinates.coordinates[0];
+	  vector3.y = tweet.coordinates.coordinates[1];
 	  vector3.z = height;
 
 	  return vector3;
