@@ -97,20 +97,20 @@
 
 		height = height ? height : 0;
 
-	  var vector3 = new THREE.Vector3(0, 0, 0);
-
 	  lon = lon + 10;
 	  lat = lat - 2;
+		
+	  var vector2 = new THREE.Vector2(lat, lon, 0);
 
-	  var phi = PI_HALF - lat * Math.PI / 180 - Math.PI * 0.01;
+	  /*var phi = PI_HALF - lat * Math.PI / 180 - Math.PI * 0.01;
 	  var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
 	  var rad = 600 + height;
 
 	  vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
 	  vector3.y = Math.cos(phi) * rad;
-	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
-		
-	  return vector3;
+	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;*/
+	 
+	  return vector2;
 	};
 
 	/**
