@@ -47,7 +47,7 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
     	getTrends();
     }, TREND_POLL_INTERVAL);
   }
-
+PubNub.ngHistory({channel:theChannel, count:500});
   /**
    * Adds Tweet data to binded model
    */
