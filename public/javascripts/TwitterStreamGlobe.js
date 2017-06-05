@@ -93,12 +93,11 @@
 	/**
 	 * Converts a latlong to Vector3 for use in Three.js
 	 */
-	function latLonToVector3 (lat, lon) {
-
-	  lon = lon + 10;
-	  lat = lat - 2;
-		
-	  var vector2 = new THREE.Vector2(lat, lon);
+	function latLonToVector3 (lat, lon, height) {
+ 
+ 		height = height ? height : 0;
+ 
+ 	  var vector3 = new THREE.Vector3(0, 0, 0);
 
 	  /*var phi = PI_HALF - lat * Math.PI / 180 - Math.PI * 0.01;
 	  var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
@@ -107,8 +106,13 @@
 	  vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
 	  vector3.y = Math.cos(phi) * rad;
 	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;*/
+		
+	  vector3.x = 1200*lon/180;
+	  vector3.x = 1200*lon/180;
+  	  vector3.y = 600*lat/180;
+  	  vector3.z = 1;
 	 
-	  return vector2;
+	  return vector3;
 	};
 
 	/**
