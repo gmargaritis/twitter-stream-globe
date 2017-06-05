@@ -66,7 +66,7 @@
 	    fragmentShader: shader.fragmentShader
 	  });
 
-	  earthMesh = new THREE.Mesh(sphereGeometry, material);
+	  earthMesh = new THREE.Mesh(planeGeometry, material);
 	  scene.add(earthMesh);
 
 	  // add an empty container for the beacons to be added to
